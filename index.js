@@ -8,14 +8,13 @@ let variable = [];
 }
 
 
-function johnLennonFacts(facts){
-  
-let variable = [];
-let i = 0;
+function johnLennonFacts(facts) {
+  var i = 0;
   while (i < facts.length) {
-    variable.push(facts[i] + ' !!!');
+    facts[i] = facts[i]+'!!!';
+    i++;
   }
-  return variable;
+  return facts;
 }
 
 function iLoveTheBeatles(number) {
